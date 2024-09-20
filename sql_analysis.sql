@@ -1,3 +1,5 @@
+-- Displaying data from each table
+
 SELECT * FROM category
 LIMIT (5);
 
