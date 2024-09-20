@@ -36,6 +36,17 @@ Extracted and transformed the 'crowdfunding.xlsx' data to create a 'campaign' Da
 * Unwanted columns were dropped from this DataFrame.
 * DataFrame was then exported to a CSV file.
 
+### Create the Contacts DataFrame
+In the contacts dataframe portion of this project, we took raw data from the contacts.xslt file. We clean the data using various python techniques including string manipulations, list comprehensions and for loops. Once the data was cleaned and processs, the results were exported to a csv file.
+* Contacts' first name and last were separated into two columns
+* Unwated columns were dropped from the initial dataframe
+
+### Create Crowdfunding Database
+In the SQL portion of this project, the crowdfunding database was created and populated with the csv outputs of the previous 3 excercises. The crowdfunding database consists of the following tables: category, subcategory, contacts and canpaigns. We also created an ERD diagram to provide visual representation of the relationship between all four tables.
+
+* Schema was created with appropriate primary key designations and foreign key relationships
+* CSV files were succesfully imported into created tables
+* Select statements were used to display data from created tables
 
 
 
