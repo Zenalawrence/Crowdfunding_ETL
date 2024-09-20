@@ -4,6 +4,7 @@
 
 This was a collaborative project to build an ETL (Extract, Transform, Load) pipeline using Python, Pandas, and Python dictionary method to extract and tranform the data.  Four CSV files were then created, and were used to create an Entity Relationship Diagram (ERD) and table schema.  The CSV files were then loaded into a relational database using PostgreSQL.
 
+
 ## Technology Used
 
 * Python
@@ -11,6 +12,7 @@ This was a collaborative project to build an ETL (Extract, Transform, Load) pipe
 * PostgreSQL
 * Jupyter Notebook
 * Excel
+
 
 ## Features
 
@@ -21,6 +23,7 @@ We extracted and transformed the 'crowdfunding.xlsx' data and loaded them into t
 - The original column 'category & sub-category' was split into category and subcategory columns.
 - The unique categories and subcategories were extracted and counted, then entered sequentially from 'cat1-n', and 'subcat1-n'.
 - The DataFrames were exported to a CSV file.
+
 
 ### Create the Campaign DataFrame
 
