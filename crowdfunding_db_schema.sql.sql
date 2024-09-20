@@ -4,7 +4,7 @@ CREATE TABLE category (
     category VARCHAR
 );
 
-CREATE TABLE category (
+CREATE TABLE subcategory (
     subcategory_id VARCHAR PRIMARY KEY,
     subcategory VARCHAR
 );
